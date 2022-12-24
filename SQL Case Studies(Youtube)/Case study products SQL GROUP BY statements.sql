@@ -1,7 +1,7 @@
 # GROUP BY statements:
 
 #Q1 Find the product category that has maximum products
-select max(ProductCategory) from tr_products; # ???DOUBT
+select max(ProductCategory) from tr_products; 
 select ProductCategory,count(*) as COUNT from tr_products group by ProductCategory order by 2 desc; # 2 is 2nd column
 
 #Q2 Find the state where most stores are present
